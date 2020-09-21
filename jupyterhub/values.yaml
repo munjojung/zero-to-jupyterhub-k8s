@@ -11,7 +11,9 @@ hub:
   cookieSecret:
   publicURL:
   initContainers: []
-  fsGid: 1000
+  #fsGid: 1000
+  uid: 0
+  fsGid: 0
   nodeSelector: {}
   concurrentSpawnLimit: 64
   consecutiveFailureLimit: 5
